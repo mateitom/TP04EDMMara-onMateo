@@ -1,15 +1,11 @@
-* {
-   outline: 1px solid red !important;
-}
 
 * {    
     box-sizing: border-box;
 }
-
 .title{
 	padding: 20px;
 	height: 150px;
-	background-color:#004080;	
+	background-color:#0000ff;	
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -71,6 +67,8 @@ h1 {
     width: 100%;
     margin-bottom: 20px;
     display: flex;
+    background-color: #ecf7ff;
+    border: solid #c0c0c0;
 }
 
 .nav {
@@ -81,13 +79,19 @@ h1 {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: #8080ff;
 }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: #ffffff
 }
-
+.titulosec{
+	background-color:#0000ff;
+	color:white;
+	left-margin: 5px;
+}
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -98,8 +102,9 @@ h1 {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 3px solid #0000ff;
   border-radius: 0.25rem;
+  margin: 5px;
 }
 
 .card-body {
@@ -114,7 +119,8 @@ h1 {
     display: flex;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    
+    text-alingn:center;
+    justify-content: center;
   }
   
  .card-img {
@@ -122,4 +128,10 @@ h1 {
   flex-shrink: 0;
   width: 100%;
   padding: 1em;
+}
+.contact{
+	text-align: center;
+	background-color: #0000ff;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }

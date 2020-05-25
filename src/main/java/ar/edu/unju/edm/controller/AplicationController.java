@@ -7,4 +7,12 @@ public class AplicationController {
 			public String inciarSistema() {
 				return "index";
 			}
+			@GetMapping("/fixture")
+			public String abrirfixture() {
+				return "fixture";
+			}
+			@GetMapping("/equipos")
+			public String abrirequipos() {
+				return "equipos";
+			}
 }
